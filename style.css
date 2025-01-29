@@ -1,0 +1,61 @@
+/*en esta parte ubico el post en la pagina*/
+body {
+    justify-items: center;
+    margin: 100px 0px 0px 0px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*aqui ya le doy formato al post tamaño que quiero que tenga y el color de fondo */
+.post {
+    background-color: white;
+    width: 380px;
+}
+
+/*aqui le doy formato al header en su totalidad*/
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/*aqui solo le doy formato al logo y al texto   que van juntos a la izquierda*/
+.logo-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*aqui hago el logo un poco mas grande*/
+.logo {
+    font-size: 24px;
+}
+
+/*aqui le doy formato al texto del header*/
+.text-name {
+    font-size: 12px;
+    line-height: 1px;
+    display: column;
+    margin: 0px 0px 0px 5px;
+}
+
+/*me aseguro que la imagen ocupe el 100% de la caja*/
+img {
+    width: 100%;
+}
+
+/*aqui le doy formato y distribucion de los iconos de la parte de abajo de la imagen*/
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 12px 0px 12px; 
+    font-size: 22px;   
+}
+
+/*aqui solo le doy formato al texto*/
+.copy {
+    padding: 0px 12px 12px 12px;
+    font-size: 12px;
+}
+/*JSF*/
